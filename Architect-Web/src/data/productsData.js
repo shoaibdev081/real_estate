@@ -1,0 +1,157 @@
+export const productsData = [
+  {
+    id: 1,
+    title: 'Refined Ashwood Desk',
+    price: 106.80,
+    originalPrice: 149.99,
+    rating: 4.5,
+    reviews: 5,
+    image: '/images/gallery-1.jpg',
+    images: ['/images/gallery-1.jpg', '/images/gallery-3.jpg', '/images/gallery-4.jpg'],
+    category: 'Furniture',
+    description: 'Embodying the raw, wayward spirit of rock \'n\' roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and gives freedom to the new generation of loud and clear.'
+  },
+  {
+    id: 2,
+    title: 'Blackened Steel Shelf',
+    price: 104.49,
+    originalPrice: 149.99,
+    rating: 4.5,
+    reviews: 5,
+    image: '/images/gallery-3.jpg',
+    images: ['/images/gallery-3.jpg', '/images/gallery-4.jpg', '/images/gallery-6.jpg'],
+    category: 'Furniture',
+    description: 'Embodying the raw, wayward spirit of rock \'n\' roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and gives freedom to the new generation of loud and clear.'
+  },
+  {
+    id: 3,
+    title: 'Soft Linen Armchair',
+    price: 117.68,
+    originalPrice: 159.99,
+    rating: 5,
+    reviews: 5,
+    image: '/images/gallery-4.jpg',
+    images: ['/images/gallery-4.jpg', '/images/gallery-6.jpg', '/images/gallery-7.jpg'],
+    category: 'Furniture',
+    description: 'Premium comfort seating with soft linen upholstery and elegant design for modern interiors.'
+  },
+  {
+    id: 4,
+    title: 'Premium Leather Lounger',
+    price: 124.33,
+    originalPrice: 179.99,
+    rating: 5,
+    reviews: 5,
+    image: '/images/gallery-6.jpg',
+    images: ['/images/gallery-6.jpg', '/images/gallery-9.jpg', '/images/gallery-11.jpg'],
+    category: 'Furniture',
+    description: 'Luxurious leather lounger chair perfect for relaxation and contemporary living spaces.'
+  },
+  {
+    id: 5,
+    title: 'Urban Cement Planter',
+    price: 16.79,
+    originalPrice: 29.99,
+    rating: 4.5,
+    reviews: 5,
+    image: '/images/gallery-7.jpg',
+    images: ['/images/gallery-7.jpg', '/images/gallery-9.jpg', '/images/gallery-12.jpg'],
+    category: 'Uncategorized',
+    description: 'Modern cement planter for indoor and outdoor decoration with minimalist design.'
+  },
+  {
+    id: 6,
+    title: 'Compact Granite Counter',
+    price: 10.63,
+    originalPrice: 19.99,
+    rating: 5,
+    reviews: 5,
+    image: '/images/gallery-9.jpg',
+    images: ['/images/gallery-9.jpg', '/images/gallery-11.jpg', '/images/gallery-1.jpg'],
+    category: 'Uncategorized',
+    description: 'Sleek granite countertop perfect for kitchens and bar areas.'
+  },
+  {
+    id: 7,
+    title: 'Contemporary Steel Frame',
+    price: 19.60,
+    originalPrice: 39.99,
+    rating: 4.5,
+    reviews: 5,
+    image: '/images/gallery-11.jpg',
+    images: ['/images/gallery-11.jpg', '/images/gallery-12.jpg', '/images/gallery-3.jpg'],
+    category: 'Furniture',
+    description: 'Modern steel frame bed with elegant design and durability.'
+  },
+  {
+    id: 8,
+    title: 'Sleek Glass Partition',
+    price: 19.11,
+    originalPrice: 39.99,
+    rating: 4.5,
+    reviews: 5,
+    image: '/images/gallery-12.jpg',
+    images: ['/images/gallery-12.jpg', '/images/gallery-4.jpg', '/images/gallery-6.jpg'],
+    category: 'Furniture',
+    description: 'Transparent glass partition for modern office and home spaces.'
+  },
+  {
+    id: 9,
+    title: 'Polished Concrete Bench',
+    price: 19.00,
+    originalPrice: 39.99,
+    rating: 4,
+    reviews: 5,
+    image: '/images/service-1.jpg',
+    images: ['/images/service-1.jpg', '/images/service-2.jpg', '/images/service-3.jpg'],
+    category: 'Furniture',
+    description: 'Minimalist concrete bench with polished finish for contemporary design.'
+  },
+  {
+    id: 10,
+    title: 'Wooden Dining Table',
+    price: 89.99,
+    originalPrice: 129.99,
+    rating: 5,
+    reviews: 8,
+    image: '/images/service-2.jpg',
+    images: ['/images/service-2.jpg', '/images/service-3.jpg', '/images/service-4.jpg'],
+    category: 'Dining Table',
+    description: 'Premium wooden dining table with natural finish and excellent craftsmanship.'
+  },
+  {
+    id: 11,
+    title: 'Office Chair Pro',
+    price: 78.50,
+    originalPrice: 119.99,
+    rating: 4.5,
+    reviews: 12,
+    image: '/images/service-3.jpg',
+    images: ['/images/service-3.jpg', '/images/service-4.jpg', '/images/gallery-1.jpg'],
+    category: 'Office Chair',
+    description: 'Ergonomic office chair with adjustable features for maximum comfort.'
+  },
+  {
+    id: 12,
+    title: 'Minimalist Sofa Set',
+    price: 299.99,
+    originalPrice: 399.99,
+    rating: 5,
+    reviews: 20,
+    image: '/images/service-4.jpg',
+    images: ['/images/service-4.jpg', '/images/gallery-6.jpg', '/images/gallery-11.jpg'],
+    category: 'Sofa',
+    description: 'Modern minimalist sofa set perfect for contemporary living spaces.'
+  },
+]
+
+export const categories = [
+  'Bench',
+  'Bookcase',
+  'Dining Table',
+  'Dressing Table',
+  'Furniture',
+  'Office Chair',
+  'Sofa',
+  'Uncategorized'
+]
